@@ -1,0 +1,9 @@
+Quantum computing by itself is incertain and so random according to what I’ve understood from today’s conference and workshop ( which was my first time discovering Quantum computing). The pseudo random numbers  that we used to generate by using different algorithms were not actually random as we want, i mean in a way they must be uniform, unbiased, unreproducible and with a high rate so that no one can generate the same random number even if they know the algorithm.
+Thanks to the superposition state, a quantum computer can help us generate truly random numbers.
+The solution that I propose is to use a loop in order to use some or a gate in each time , that gate (it can be the hadamard gate, or XR/YR gate)  should give us a probability of having a 0 as close as possible to the probability of having a 1( in other words 50% to have a “0” and 50% to have a “1”)
+and measuring them, we need to execute our circuit as much as we need random numbers, then we need to save them in a classical register of classical bits 
+
+Question 3 : after using a noisy backen i observe that the results can’t be truly random as previously because the leasurement is as accurate as needed 
+Question 4:  in order to improve ly solution it would be better to use diffrent gate with the requirements, to have 50 percent for 0 as well as for 1 ( lire rotation with angles …etc ) 
+
+
